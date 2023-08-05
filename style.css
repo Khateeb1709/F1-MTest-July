@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Rubik&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  align-items: center;
+  margin-inline: 100px;
+  width: 90vw;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 5;
+}
+
+.nav-links > .list-tags > li > a.icon {
+  display: none;
+}
+
+@media screen and (max-width: 868px) {
+  nav {
+    display: flex;
+    align-items: center;
+    margin-inline: 40px;
+  }
+  .nav-links > .list-tags > li > a {
+    display: none;
+  }
+  .nav-links > .list-tags > li > a.icon {
+    float: right;
+    display: flex;
+  }
+
+  /* .nav-right > img {
+        margin-inline: 1px;
+        cursor: pointer;
+    } */
+}
+
+.logo-n-name {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 1;
+}
+
+.logo-n-name > img {
+  margin: 3px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  flex: 4;
+}
+.list-tags {
+  list-style-type: none;
+}
+
+.list-tags > li {
+  display: inline-block;
+  margin-inline: 10px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-links > .list-tags > li > a {
+  text-decoration: none;
+  color: #4f5665;
+  cursor: pointer;
+}
+
+.nav-links > .list-tags > .home-btn > a {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 1000;
+  color: red;
+}
+
+.hero-section {
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 203, 144, 0.44) 0%,
+    rgba(255, 154, 158, 0.38) 100%
+  );
+  margin-inline: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 3;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 70px;
+  width: 477px;
+  height: 209px;
+}
+
+
+
+
+
