@@ -91,7 +91,7 @@ nav {
 }
 
 .hero-section {
-  width: 100%;
+  width: 90vw;
   height: 600px;
   border-radius: 20px;
   background: linear-gradient(
@@ -105,6 +105,7 @@ nav {
   justify-content: space-between;
   z-index: 3;
   align-items: center;
+  position: relative;
 }
 
 .hero-content {
@@ -117,6 +118,19 @@ nav {
   height: 209px;
 }
 
+.hero-img{
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    padding: 0px;
+    top: 0px;
+}
+
+.hero-img> img{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
 
 
 
